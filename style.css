@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+body{
+    margin: 0;
+    padding: 0;
+    border:0;
+    background-color:dodgerblue;
+    color:white;
+}
+
+h2{
+    color:blueviolet;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 500;
+}
+
+nav ul{}
+
+nav ul li{}
+
+nav ul li ul {
+
+}
+nav ul li a {}
+
+nav ul li a:hover {}
+section {
+    margin-bottom:4rem;
+}
+label{
+    color:blue;
+    font-weight: bold;
+    font-family: Verdana;
+}
+#form-user{
+    margin-top:2rem;
+}
+/*
+    Stylos Login
+*/
+#LoginCandado, #LoginLlave{
+    width: 50px;
+    height:50px;
+    border-radius:10px;    
+}
+
+#LoginCandado i, #LoginLlave i{
+    font-size:34pt;
+}
+
+#LoginCaptcha{
+    width: 50%;
+    border:1px solid white;
+    border-radius:10px;
+    padding:1rem;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    justify-content:space-around;
+}
+#footer {
+    width:100%;
+    position:fixed;
+    bottom:0;
+    left:0;
+    margin-top:3rem;    
+}
+@media(min-width:325px){
+    
+}

@@ -1,0 +1,40 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+#adduser{
+    padding:1rem;
+    background-color:white;
+}
+#adduser .row{
+    margin-top:1rem;
+}
+
+#btn-adduser{
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+#titulo h2,h3{
+    color:white;
+    
+}
+#Form_reg_cont a{
+    color:white;
+}
+.card{
+    background-color:cornflowerblue;
+}
+/* Formulario detalles usuarios login y usuarios */
+
+#pre-foto{     
+    width: 274px;
+    margin-top: 3.4rem;
+    margin-bottom: 3rem;
+}
+
+/* font-family: 'Oswald', sans-serif;  */
+@media (min-width:365px) {
+
+}
+@media (min-width:365px) and (max-width:1024px) {
+
+}
